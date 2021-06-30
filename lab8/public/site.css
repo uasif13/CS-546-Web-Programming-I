@@ -1,0 +1,53 @@
+p {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+button {
+    fill: aqua;
+}
+
+.error {
+    color: indianred;
+}
+
+.not-found {
+    color: cornflowerblue;
+}
+
+a {
+    color: blueviolet;
+    font-size: medium;
+}
+
+a:hover {
+    color: blue;
+}
+
+#submit {
+    background-color: beige;
+}
+
+#labelforinput {
+    font-weight: bold;
+}
+
+.new-search-query .full-width-input {
+	display: block;
+	min-height: 3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	width: 90%;
+}
+
+.details {
+    color: darkcyan;
+}

@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+<h2>Search Term: {{searchTerm}}</h2>
+<main>
+    <ul>
+        {{#each data}}
+        <li>
+            <a href="/shows/{{this.show.id}}">{{this.show.name}}</a>
+        </li>
+        {{/each}}
+    </ul>
+    <a href="/">Make another search</a>
+</main>

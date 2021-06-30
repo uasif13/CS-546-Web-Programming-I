@@ -1,0 +1,23 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "This lab will a book api for someone to crud books and reviews",
+  "main": "app.js",
+  "scripts": {
+    "seed": "node ./tasks/seed.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "mongodb",
+    "routes",
+    "api"
+  ],
+  "author": "Asif Uddin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2"
+  }
+}

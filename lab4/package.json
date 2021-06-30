@@ -1,0 +1,20 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "Lab 4 for CS 546 on basics of mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "mongodb"
+  ],
+  "author": "Asif Uddin 10427933",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.2"
+  }
+}

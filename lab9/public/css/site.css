@@ -1,0 +1,73 @@
+.is-prime {
+    color: #00E676;
+}
+
+.not-prime {
+    color: #FF3D00;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #107896;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+}
+
+ol {
+  list-style: none;
+  counter-reset: item;
+}
+
+li {
+  counter-increment: item;
+  margin-bottom: 5px;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+li:before {
+  content: counter(item);
+  margin-right: 10px;
+  background-color: #36454F;
+  font-weight: bold;
+  color: white;
+  border-radius: 100%;
+  width: 1.3em;
+  text-align: center;
+  display: inline-block;
+}
+
+#labelforinput {
+  font-weight: bold;
+}
+
+#myform #index{
+  display: block;
+  min-height: 3em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+#submit {
+  background-color: #107896;
+  color: white;
+}
+
+#error {
+  font-weight: bold;
+  color: #8b0000;
+  margin-top: 0.5em;
+}

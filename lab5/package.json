@@ -1,0 +1,21 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "Lab 5 on Web Dev Basics such as get requests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "express",
+    "get requests"
+  ],
+  "author": "Asif Uddin 10427933",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1"
+  }
+}
